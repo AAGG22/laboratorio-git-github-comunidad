@@ -1,0 +1,27 @@
+title: "[Sugerencia] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Contá qué mejorarías del laboratorio. El mensaje es **público**.
+  - type: input
+    id: donde
+    attributes:
+      label: Dónde
+      description: Página o comando. Por ejemplo /nivel-1, git merge develop, el menú.
+      placeholder: /nivel-1
+    validations:
+      required: true
+  - type: textarea
+    id: esperabas
+    attributes:
+      label: Qué esperabas
+    validations:
+      required: true
+  - type: textarea
+    id: paso
+    attributes:
+      label: Qué pasó
+    validations:
+      required: true
